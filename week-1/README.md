@@ -1,25 +1,22 @@
-# Week I
-## Docker Fundamentals I
+# Первое Занятие
+## Основы Docker I
 
-### Videos
-* [First Run Record](https://youtu.be/JvbNT0NqD2Q)
-* [Second Run Record](https://youtu.be/PVZhcGPGsCM)
+### Материалы
+* [Видеозапись](https://youtu.be/fgdcgEcI1KA)
+* [Слайды первой недели](./docker-slides-week-1.pdf)
 
-### Slides
-* [Slides Week I](./docker-slides-week-1.pdf)
-
-### Code Samples
+### Образцы Кода
 * [Hello World](./hello-world)
 * [Hello World Nginx](./hello-world-nginx)
 * [Hello World Flask](./hello-world-flask)
 
-### Assignment
+### Лабораторная Работа
 
-1. Create an account at hub.docker.com
-2. Install Docker (recommended) OR make yourself familiar with labs.play-with-docker.com using your DockerID from the step I
-3. Containerize a SIMPLE hello-world application in the language/framework of your choice. Don’t take a complex system but **prefer a simple one**, like the Flask example we did today. It’s the week I assignment after all, we will cover more advanced scenarios next week! Push the created image to your docker repository at the docker hub as shown in the video.
-4. Ensure you used every command from today’s class - both for Dockerfile and command line.
-5. Invite a friend or a colleague! If you are at this slide with us, it means you liked the class, don’t you? It’s week I so it’s still the perfect time to jump in!
+1. Создайте аккаунта на [hub.docker.com](https://hub.docker.com)
+2. [Установите докер локально](https://docs.docker.com/get-docker/) (рекомендуется) или попробуйте [labs.play-with-docker.com](https://labs.play-with-docker.com) используя ваш Docker ID из первого шага
+3. Контейнеризуйте (создайте докер-образ) *простое* приложение, схожее с тем, что мы делали на первом занятии, используя Flask
+4. Перечитайте все использованные сегодня команды и директивы докер-файла, используя слайды доклада.
+5. Пригласите на второе занятие вашего друга или коллегу - мы только начали!
 
-### Questions?
-Find us at our [Discord Server](https://discord.gg/va4vnsm)!
+### Вопросы?
+Заходите в [наш чат](https://t.me/pereiti_v_aiti)!
