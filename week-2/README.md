@@ -1,24 +1,21 @@
-# Week II
-## Docker Fundamentals II
+# Второе Занятие
+## Основы Docker II
 
-### Videos
-* [First Run Record](https://youtu.be/cyHqbGWlsKk)
-* [Second Run Record](https://youtu.be/Y_ocioMZgt4)
+### Материалы
+* [Видеозапись](https://youtu.be/xtPK-SoB7DY)
+* [Слайды первой недели](./docker-slides-week-2.pdf)
+* [Обсудить и задать вопросы](https://t.me/pereiti_v_aiti)
 
-### Slides
-* [Slides Week II](./docker-slides-week-2.pdf)
-
-### Code Samples
+### Образцы Кода
 * [Persistent Data](./volumes)
 * [Wordpress](./wordpress)
 * [Microservices System](./voting-app)
 
-### Assignment
-1. This time you have to do a more complex setup using docker-compose. It should include at least one predefined image from hub.docker.com (like a database) and one custom image you build on your own. It should use bind mounts or volumes so `docker-compose down` will not wipe out data. Please use our examples of [wordpress](./wordpress) and [voting application](./voting-app) for the inspiration.
-2. If possible, publish your code from p.1 on github by creating a new issue at https://github.com/datastaxdevs/docker-learning-path/issues/new/choose. It may not be an option if you containerised a proprietary project, but please proceed to step III anyway.
-3. Open the issues list at https://github.com/datastaxdevs/docker-learning-path/issues, pick one not taken project, write a comment that you have "taken" it. Review the project and think on how would you improve it. Write down your suggestions in the issue. Feel free to review multiple projects, also feel free to review a taken one - more opinions is better! Stay polite!
-4. If you want us to review your assignment publicly, send an issue link to me as well! We will pick some projects to discuss during week III. We cover both mistakes and good decisions. :) 
-5. Add me on linkedin. We spend together over 4 hours already so let's celebrate it! [linkedin.com/in/volochnev/](https://linkedin.com/in/volochnev/)
+### Лабораторная Работа
 
-### Questions?
-Find us at our [Discord Server](https://discord.gg/va4vnsm)!
+1. В этот раз мы сделаем более сложный проект с `docker-compose`. Создайте контейнеризованное приложение, используя хотя бы один образ с `hub.docker.com` (например, базу данных) и один ваш собственный образ. Обязательно используйте `bind mounts` или `volumes` так, чтобы `docker-compose down` не стирал данные. Используйте в качестве примера [wordpress](./wordpress) или [voting application](./voting-app).
+2. Если возможно, опубликуйте ваш проект на гитхабе. Этот шаг можно пропустить, если вы работает с проприетарным кодом.
+3. Зайдите в чат и попросите других участников проверить ваш проект. Предлжите другим участникам проверить их проекты. Обсудите, что сделано хорошо, а что можно было бы улучшить.
+
+### Вопросы?
+Заходите в [наш чат](https://t.me/pereiti_v_aiti)!
