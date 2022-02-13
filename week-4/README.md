@@ -1,29 +1,20 @@
-# Week IV
-## Best Practices
+# Четвёртое Занятие
+## Типичные ошибки и лучшие практики
 
-### Videos
-* [First Run Record](https://youtu.be/nDZ1mjRFCYE)
-* [Second Run Record](https://youtu.be/unA3PnjzeUg)
+### Материалы
+* [Видеозапись](https://youtu.be/39zlGay7NkU)
+* [Слайды этой недели](./docker-slides-week-4.pdf)
+* [Обсудить и задать вопросы](https://t.me/pereiti_v_aiti)
 
-### Slides
-* [Slides Week IV](./docker-slides-week-4.pdf)
+### Образцы Кода
+* [Первый пример](./first-sample)
+* [Второй пример](./second-sample)
 
-### Code Samples
-* [First Sample](./first-sample)
-* [Second Sample](./second-sample)
+### Лабораторная Работа
 
-### Assignment
+Продолжим улучшать ваше контейнеризованное приложение (если такого нет, используйте пример из прошлой недели). 
 
-* Optimize one of the dockerfiles of your choice. You can pick one of the suggested or find something on your own. Try to make it smaller, exclude redundant dependencies while keeping dockerfile self-sufficient. Think not only about size but caching and build time as well. For multi-process containers, you may need docker-compose to separate them.
-  * [Java]()
-  * [NodeJS]()
-  * [Python]()
-* Implement automated build for a project from p.I using Travis CI, Github Actions or another Buld Server of your choice. Build Pipeline should include:
-  * docker build
-  * testing (at least smoke tests)
-  * docker push to hub.docker.com
+Проверьте и, по возможности, оптимизируйте ваши Dockerfiles. Попробуйте уменьшить размер итогового образа, переключится на `slim` или `alpine` версию исходного образа, исключите лишние зависимости. Учитывайте не только размер, но и время сборки - где возможно, используйте кэширование слоёв. Для контейнеров с множеством процессов может понадобится разделение на отдельные контейнеры.
 
-Need help or an advice? Use our [Discord](https://discord.gg/va4vnsm) to communicate!
-
-### Questions?
-Find us at our [Discord Server](https://discord.gg/va4vnsm)!
+### Вопросы?
+Заходите в [наш чат](https://t.me/pereiti_v_aiti)!
